@@ -35,7 +35,7 @@ def main(headerfile,uni):
 	
 	chars = set('\\ \'\"><\;|$,\`[](){}_*\t=:& #')
 	jobs=[]
-	luks_file = "header2"
+	luks_file = uni
 	manager = Manager()
 	return_list = manager.list(range(2))
 	
